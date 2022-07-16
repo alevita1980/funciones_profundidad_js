@@ -65,4 +65,14 @@ const data = [
 --> Almacene el objeto generado dentro de una lista "posts"
 
 */
+function Post(titulo, avatar, texto){
+  this.titulo= titulo;
+  this.avatar= avatar;
+  this.texto= texto;
+}
 
+const post1 = new Post("titulo", "avatar", "texto");
+
+for (const posts of data){
+  console.log(posts);
+}
